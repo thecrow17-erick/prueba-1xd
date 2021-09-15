@@ -1,0 +1,115 @@
+body{
+    margin: 0px;
+    background: url(/184757738_584335599210120_8594507780171891615_n.jpg);
+    
+}
+.header{
+   /* background-color: #21c08b; */
+    width: 100%;
+    height: 100px; 
+    display: flex;
+    align-items: center;
+
+}
+.header-img{
+    width:250px ;
+}
+.login{
+    /*background:linear-gradient(#21c08b,#ab88ff);*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);
+}
+.login__container{
+    padding: 68px  68px 30px ;
+    background: rgba(255,255, 255, 0.1);
+    min-height: 700px;
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    border:3px solid white;
+    box-shadow: 0px 0px 20px 0px rgb(243, 238, 238);
+    border-radius: 40px;
+}
+.login__container h2{
+    font-size: 36px;
+}
+.login__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 0px;    
+}
+.input{
+    background: transparent;
+    border-bottom:2px solid white;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    height: 30px;
+    margin: 10px 0px;
+    font-size: 16px;
+    color: white;
+    padding: 0px 20px;
+    outline: none;
+}
+::placeholder{
+    color: white;
+}
+.boton{
+    background: rgba(255,255, 255, 0.3);
+    color: white;
+    font-size: 16px;
+    height: 60px;
+    border:2px solid white;
+    border-radius: 40px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.login__container a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.login__container a:hover{
+    text-decoration: underline;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+   /* background-color: #ab88ff;*/
+    display: flex;
+    align-items: center;
+}
+.footer a { 
+    color: white;
+    font-size: 14px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+@media only screen and (max-width: 600px) {
+    .login__container{
+        background-color:transparent;
+        box-shadow: none;
+        border: none;
+        padding: 0px;
+        width: 100%;
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

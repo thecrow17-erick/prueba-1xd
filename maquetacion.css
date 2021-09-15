@@ -1,0 +1,128 @@
+body{
+    margin: 0px;
+}
+.header{
+    width: 100%;
+    height:200px;
+    background-color: #21c08b;
+    display: flex;
+    align-items: center;
+}
+.header-img{
+    width: 400px;
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background:linear-gradient(#21c08b,#ab88ff);
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);
+}
+.login__container{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 60px;
+    color:white;
+    padding: 68px  68px 30px ;
+    min-height: 700px;
+    width: 300px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.login__container h2{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+}
+.login__container--form{
+    display: flex;
+    flex-direction: column;
+}
+.login__container--form label{
+    font-size: 14px;
+}
+.login-input{
+    margin-top: 0px;
+    height: 40px;
+    margin-bottom:20px;
+    font-size: 16px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    padding: 0px 20px;
+    outline: none;
+}
+::placeholder{
+    color: white;
+}
+.boton{
+    background: rgba(255, 255, 255, 0.3);
+    border:2px  white;
+    border-radius: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 50px; 
+    color: white; 
+    margin-top: 10px;
+}
+.login__container-remember{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+a {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline
+}
+
+.login__container-social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.login__container-social a {
+    margin-left: 10px;
+}
+.container-social--google{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-right: 90px;
+}
+.social--google-img{
+    width: 30px;
+    height: 30px;
+}
+.container-social--twiter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 100px;
+    margin-bottom: 30px;   
+}
+.social--twiter-img{
+    width: 30px;
+    height: 30px;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color:#ab88ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}

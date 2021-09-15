@@ -1,0 +1,39 @@
+body{
+    margin:0px;
+    font-family: 'Mukta', sans-serif;
+}
+.header{
+    width: 100%;
+    background-color:#2ECC71 ;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+.header-img{
+    width: 250px;
+}
+.error{
+    display: flex;
+    background:linear-gradient(#2ECC71,#A569BD  ) ;
+    align-items: center;
+    flex-direction: column;
+    height: 700px;
+}   
+.error-img{
+    width: 350px;
+}
+.error__text{
+    margin-top: -150px;
+    color: white;
+}
+
+.error__text p{
+    margin-top: -150;
+    font-size: 36px;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color:#A569BD ;
+}
+
